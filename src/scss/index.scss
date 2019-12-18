@@ -7,5 +7,9 @@
 @import 'foundation/Mixin';
 
 // import layout
+@import 'layout/Main';
 @import 'layout/Header';
 @import 'layout/Footer';
+
+// import component
+@import 'object/component/Navigation';

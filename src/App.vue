@@ -1,7 +1,6 @@
 <template>
-  <div id="l-main">
+  <div class="l-main">
     <Header/>
-    <h1>Hi! My name is Adhi Yudana Svarajati</h1>
     <Footer/>
   </div>
 </template>
