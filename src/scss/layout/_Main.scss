@@ -3,4 +3,19 @@
     height: 100%;
     position: absolute;
     background-color: $sea-shell;
+
+    &__work {
+        margin-top: 9vh;
+        padding: 2vw;
+    }
+
+    &__contact {
+        margin-top: 9vh;
+        padding: 2vw;
+    }
+
+    .l-home {
+        margin-top: 70px;
+        height: calc(100% - 70px);
+    }
 }

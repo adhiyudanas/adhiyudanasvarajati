@@ -1,14 +1,14 @@
 .l-header {
     position: fixed;
     width: 100%;
-    height: 75px;
+    height: 70px;
     display: flex;
     display: -webkit-flex;
     background-color: $midnight-blue;
     justify-content: space-between;
 
     &__wrapper {
-        padding: 2.5vh 1vw 2vh 1vw;
+        padding: 2vh 1vw 2vh 1vw;
 
         .title {
             color: $sea-shell;

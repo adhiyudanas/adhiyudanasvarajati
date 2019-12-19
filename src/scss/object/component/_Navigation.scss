@@ -1,6 +1,21 @@
 .c-nav {
-    &__wrapper {
-        
-        
+    padding: 3vh 0 3vh 2vw;
+
+    &__element {
+        color: $sea-shell;
+        margin-right: 3vw;
+        padding: 1vw;
+        cursor: pointer;
+
+        &:hover {
+            @include higlight-sea-blue;
+            border-radius: 50%;
+            transition: ease 1s;
+        }
+
+        &.is-active {
+            @include higlight-sea-blue;
+            border-radius: 50%;
+        }
     }
 }

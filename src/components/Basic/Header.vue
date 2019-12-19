@@ -3,12 +3,14 @@
     <div class="l-header__wrapper">
       <h1 class="title">AYS</h1>
     </div>
-    <Navigation/>
+    <Navigation
+      @changetab="tabPass"
+    />
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
+import { Component, Emit, Vue } from 'vue-property-decorator'
 import Navigation from '@/components/Basic/Navigation.vue'
 
 @Component({
@@ -17,6 +19,10 @@ import Navigation from '@/components/Basic/Navigation.vue'
   }
 })
 export default class Header extends Vue {
+  @Emit() public changetab (v:string) {}
 
+  public tabPass (value: string) {
+    this.changetab(value)
+  }
 }
 </script>
