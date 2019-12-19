@@ -1,7 +1,7 @@
 <template>
   <div class="l-header">
     <div class="l-header__wrapper">
-      <h1 class="title">AYS</h1>
+      <h1 class="title" @mouseover="hoverEventIn" @mouseout="hoverEventOut">AYS</h1>
     </div>
     <Navigation
       @changetab="tabPass"
@@ -23,6 +23,14 @@ export default class Header extends Vue {
 
   public tabPass (value: string) {
     this.changetab(value)
+  }
+
+  public hoverEventIn (event: Event) {
+
+  }
+
+  public hoverEventOut (event: Event) {
+
   }
 }
 </script>

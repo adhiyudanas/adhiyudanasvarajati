@@ -1,0 +1,28 @@
+.p-profile {
+    // gridの設定
+    display: grid;
+    grid-template-areas: 'main aside';
+    grid-template-columns: 60% 40%;
+    height: 100%;
+
+    &__biodata {
+        padding: 3vw;
+        height: calc(100% - 6vw);
+    }
+
+    &__picture {
+        padding: 5vw;
+        height: calc(100% - 10vw);
+
+        .img-wrapper {
+            border: solid 3px;
+            border-radius: 5px;
+            width: 95%;
+            &__element {
+                max-width: 100%;
+                max-height: 100%;
+                display: block;
+            }
+        }
+    }
+}
