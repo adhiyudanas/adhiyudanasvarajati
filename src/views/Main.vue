@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
-    <h1>Profile page on construction</h1>
+  <div class="main flex-wrapper">
+    <h1>ADHI YUDANA SVARAJATI</h1>
   </div>
 </template>

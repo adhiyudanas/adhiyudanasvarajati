@@ -1,0 +1,17 @@
+@import '../styles/base/normalize';
+
+* { 
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/src/assets/background/me.jpeg');
+}
