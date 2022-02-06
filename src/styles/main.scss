@@ -1,7 +1,8 @@
-@import '../styles/base/normalize';
-@import '../styles/base/basic';
-@import '../styles/base/breakpoints';
-@import '../styles/base/mixins';
+@import './base/normalize';
+@import './base/basic';
+@import './base/breakpoints';
+@import './base/mixins';
+@import './base/color';
 
 * { 
     padding: 0;
@@ -9,6 +10,7 @@
 
 body {
     min-height: 100vh;
+    background-color: $orange-base;
 }
 
 #app {
@@ -16,25 +18,56 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
-  }
-  
-  #nav {
-    padding: 30px;
-  
-    a {
-      font-weight: bold;
-      color: #2c3e50;
-  
-      &.router-link-exact-active {
-        color: #42b983;
-      }
-    }
-  }
+    padding: 4vw;
+}
+
+.main-wrapper {
+  background-color: $container-background;
+  border-radius: 20px;
+}
 
 .flex-wrapper {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+}
+
+header {
+  ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+  
+  #nav {
+    padding: 30px;
+  
+    ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    a {
+      font-weight: bold;
+      color: $plain-black;
+  
+      &.router-link-exact-active {
+        color: $green-text;
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .float-left {
+    float: left;
+  }
+  
+  .float-right {
+    float: right;
+    a {
+      text-decoration: underline;
+    }
+  }
 }

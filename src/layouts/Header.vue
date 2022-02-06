@@ -23,36 +23,5 @@ export default {
 </script>
 
 <style lang="scss">
-ul, li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline;
-}
 
-#nav {
-  padding: 30px;
-
-  ul {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
-}
 </style>

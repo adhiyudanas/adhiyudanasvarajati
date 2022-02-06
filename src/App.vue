@@ -13,4 +13,4 @@ export default {
 };
 </script>
 
-<style scoped src="./styles/main.scss" lang="scss"></style>
+<style src="./styles/main.scss" lang="scss"></style>
