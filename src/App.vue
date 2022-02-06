@@ -13,6 +13,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "./styles/main.scss";
-</style>
+<style scoped src="./styles/main.scss" lang="scss"></style>

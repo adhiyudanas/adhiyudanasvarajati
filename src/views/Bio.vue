@@ -1,5 +1,5 @@
 <template>
   <div class="main flex-wrapper">
-    <h1>ADHI YUDANA SVARAJATI</h1>
+    <h2>ADHI YUDANA SVARAJATI</h2>
   </div>
 </template>
