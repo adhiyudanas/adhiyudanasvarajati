@@ -11,6 +11,7 @@ import Header from './layouts/Header';
 export default {
   components: { Header }
 };
+
 </script>
 
 <style src="./styles/main.scss" lang="scss"></style>
