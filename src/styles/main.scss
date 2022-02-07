@@ -9,12 +9,9 @@
 }
 
 body {
-    min-height: 100vh;
     margin: 0;
     background: $orange-base;
     padding: 4vw;
-    // need to change later
-    overflow: hidden;
 }
 
 #app {
@@ -22,11 +19,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-}
-
-.main-wrapper {
-  background-color: $container-background;
-  border-radius: 20px;
+    background-color: $container-background;
+    border-radius: 20px;
 }
 
 .flex-wrapper {
@@ -45,7 +39,22 @@ header {
   }
   
   #nav {
-    padding: 30px;
+    // add breakpoints for screen
+    @include phone-screen {
+      padding: 15px;
+    }
+
+    @include medium-screen {
+      padding: 20px;
+    }
+
+    @include large-screen {
+      padding: 25px;
+    }
+
+    @include extraLarge-screen {
+      padding: 30px;
+    }
   
     ul {
       display: flex;

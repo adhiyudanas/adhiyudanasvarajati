@@ -1,28 +1,35 @@
-@import '../base/breakpoints';
+@import './breakpoints';
+
+// phone devices
+@mixin phone-screen {
+    @media (min-width: #{$screen-phone-min}) {
+        @content;
+    }
+}
 
 // Small devices
-@mixin sm {
+@mixin small-screen {
     @media (min-width: #{$screen-sm-min}) {
         @content;
     }
- }
+}
  
  // Medium devices
- @mixin md {
+ @mixin medium-screen {
     @media (min-width: #{$screen-md-min}) {
         @content;
     }
  }
  
  // Large devices
- @mixin lg {
+ @mixin large-screen {
     @media (min-width: #{$screen-lg-min}) {
         @content;
     }
  }
  
  // Extra large devices
- @mixin xl {
+ @mixin extraLarge-screen {
     @media (min-width: #{$screen-xl-min}) {
         @content;
     }
