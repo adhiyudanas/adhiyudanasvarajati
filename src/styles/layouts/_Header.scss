@@ -1,0 +1,78 @@
+header {
+    ul, li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline;
+    }
+    
+    #nav {
+    
+      ul {
+        display: flex;
+        justify-content: space-between;
+      }
+    
+      a {
+        font-weight: bold;
+        color: $plain-black;
+    
+        &.router-link-exact-active {
+          color: $green-text;
+          text-decoration: none;
+        }
+      }
+    }
+    
+    .float-left {
+      float: left;
+    }
+    
+    .float-right {
+      float: right;
+      a {
+        text-decoration: underline;
+      }
+    }
+}
+
+// add breakpoints for screen
+@include phone-screen {
+  #nav {
+    padding: 15px;
+  }
+
+  .introduction h1 {
+    font-size: 1.4em;
+  }
+}
+
+@include medium-screen {
+  #nav {
+    padding: 20px;
+  }
+
+  .introduction h1 {
+    font-size: 1.6em;
+  }
+}
+
+@include large-screen {
+  #nav {
+    padding: 25px;
+  }
+
+  .introduction h1 {
+    margin: 0;
+  }
+}
+
+@include extraLarge-screen {
+  #nav {
+    padding: 30px;
+  }
+
+  .introduction h1 {
+    margin: 0;
+  }
+}

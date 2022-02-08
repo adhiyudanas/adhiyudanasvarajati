@@ -1,7 +1,3 @@
 <template>
-    <a href="/" style="text-decoration:none" rel="Adhi Yudana Svarajati">AYS</a>
+    <a class="short" href="/#" style="text-decoration:none" rel="Adhi Yudana Svarajati"></a>
 </template>
-
-<style lang="scss">
-
-</style>

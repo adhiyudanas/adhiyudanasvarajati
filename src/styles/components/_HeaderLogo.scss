@@ -1,0 +1,30 @@
+.short:not(:hover)::after {
+    content: 'AYS' !important;
+    transition: 0.5s;
+}
+
+.short:hover::after {
+    animation: textanimate 1s linear;
+    content: 'Adhi Yudana Svarajati';
+}
+
+@keyframes textanimate {
+  0% {
+    content: 'AYS';
+  }
+  20% {
+      content: 'AYSvarajati';
+    }
+  40% {
+    content: 'AYSvarajati';
+  }
+  60% {
+    content: 'AYudanaSvarajati';
+  }
+  80% {
+    content: 'AYudanaSvarajati';
+  }
+  100% {
+    content: 'AdhiYudanaSvarajati';
+  }
+}

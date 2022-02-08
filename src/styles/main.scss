@@ -1,85 +1,15 @@
+// importing base scss
 @import './base/normalize';
-@import './base/basic';
 @import './base/breakpoints';
 @import './base/mixins';
 @import './base/color';
+@import './base/basic';
 
-* { 
-    padding: 0;
-}
+// compile views, layouts, components
+@import './views/Bio.scss';
 
-body {
-    margin: 0;
-    background: $orange-base;
-    padding: 4vw;
-}
 
-#app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    background-color: $container-background;
-    border-radius: 20px;
-}
+@import './layouts/Header';
 
-.flex-wrapper {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-}
 
-header {
-  ul, li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-  }
-  
-  #nav {
-    // add breakpoints for screen
-    @include phone-screen {
-      padding: 15px;
-    }
-
-    @include medium-screen {
-      padding: 20px;
-    }
-
-    @include large-screen {
-      padding: 25px;
-    }
-
-    @include extraLarge-screen {
-      padding: 30px;
-    }
-  
-    ul {
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    a {
-      font-weight: bold;
-      color: $plain-black;
-  
-      &.router-link-exact-active {
-        color: $green-text;
-        text-decoration: none;
-      }
-    }
-  }
-  
-  .float-left {
-    float: left;
-  }
-  
-  .float-right {
-    float: right;
-    a {
-      text-decoration: underline;
-    }
-  }
-}
+@import './components/HeaderLogo';

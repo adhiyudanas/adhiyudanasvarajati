@@ -1,0 +1,18 @@
+* { 
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background: $orange-base;
+    padding: 4vw;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    background-color: $container-background;
+    border-radius: 20px;
+}
