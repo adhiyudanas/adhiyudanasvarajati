@@ -51,28 +51,16 @@ header {
   #nav {
     padding: 20px;
   }
-
-  .introduction h1 {
-    font-size: 1.6em;
-  }
 }
 
 @include large-screen {
   #nav {
     padding: 25px;
   }
-
-  .introduction h1 {
-    margin: 0;
-  }
 }
 
 @include extraLarge-screen {
   #nav {
     padding: 30px;
-  }
-
-  .introduction h1 {
-    margin: 0;
   }
 }

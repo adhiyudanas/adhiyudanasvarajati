@@ -1,0 +1,33 @@
+.bio-wrapper {
+    .introduction {
+        h1 {
+            font-size: 3rem;
+            margin: 0.67em;
+        }
+    }
+}
+
+// add breakpoints for screen
+@include phone-screen {
+    .introduction h1 {
+      font-size: 1.4em;
+    }
+  }
+  
+  @include medium-screen {  
+    .introduction h1 {
+      font-size: 1.6em;
+    }
+  }
+  
+  @include large-screen {
+    .introduction h1 {
+      // margin: 0;
+    }
+  }
+  
+  @include extraLarge-screen {
+    .introduction h1 {
+      // margin: 0;
+    }
+  }

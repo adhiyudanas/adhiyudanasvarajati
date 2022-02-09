@@ -1,12 +1,12 @@
-.short:not(:hover)::after {
-    content: 'AYS' !important;
-    transition: 0.5s;
-}
+//.short:not(:hover)::after {
+    //content: 'AYS' !important;
+    //transition: 0.5s;
+//}
 
-.short:hover::after {
-    animation: textanimate 1s linear;
-    content: 'Adhi Yudana Svarajati';
-}
+//.short:hover::after {
+//    animation: textanimate 1s linear;
+//    content: 'Adhi Yudana Svarajati';
+//}
 
 @keyframes textanimate {
   0% {
