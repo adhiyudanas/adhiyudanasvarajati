@@ -39,11 +39,7 @@ header {
 // add breakpoints for screen
 @include phone-screen {
   #nav {
-    padding: 15px;
-  }
-
-  .introduction h1 {
-    font-size: 1.4em;
+    padding: 20px 25px 10px 25px
   }
 }
 
@@ -62,5 +58,11 @@ header {
 @include extraLarge-screen {
   #nav {
     padding: 30px;
+  }
+}
+
+@include hd-screen {
+  #nav {
+    // padding: 40px;
   }
 }

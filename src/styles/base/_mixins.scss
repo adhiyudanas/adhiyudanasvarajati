@@ -34,3 +34,10 @@
         @content;
     }
  }
+
+ // hd device
+ @mixin hd-screen {
+    @media (min-width: #{$screen-hd-min}) {
+        @content;
+    }
+ }
