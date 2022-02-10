@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "sh deploy.sh"
+    "deploy": "sh deploy.sh",
+    "putup": "vue-cli-service build && vue-cli-service serve"
   },
   "dependencies": {
     "register-service-worker": "^1.7.1",
