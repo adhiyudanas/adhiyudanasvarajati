@@ -5,7 +5,7 @@
             <div class="float-left"><li><HeaderLogo/></li></div>
             <div class="float-right">
               <li><router-link to="/">BIO</router-link> | </li>
-              <li><router-link to="/work">WORK</router-link> | </li>
+              <li><router-link to="/work">WHAT I DO</router-link> | </li>
               <li><router-link to="/contact">CONTACT</router-link></li>
             </div>
           </ul>
