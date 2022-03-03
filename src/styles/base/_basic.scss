@@ -16,3 +16,7 @@ body {
     background-color: $container-background;
     border-radius: 20px;
 }
+
+.main-wrapper {
+    min-height: calc(100vh - 8vw);
+}
