@@ -2,11 +2,13 @@
   "name": "adhiyudanasvarajati",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://adhiyudanas.github.io/adhiyudanasvarajati",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "sh deploy.sh",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist",
     "putup": "vue-cli-service build && vue-cli-service serve"
   },
   "dependencies": {
@@ -27,6 +29,7 @@
     "@vue/eslint-config-typescript": "^7.0.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
+    "gh-pages": "^4.0.0",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "typescript": "~4.1.5"
