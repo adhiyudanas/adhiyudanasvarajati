@@ -1,2 +1,2 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{b8fa:function(n,t,c){"use strict";c.r(t);var e=c("7a23");const a={class:"contact flex-wrapper"},o=Object(e["e"])("h2",null,"Contact Me",-1);function r(n,t){return Object(e["n"])(),Object(e["c"])("div",a,[o])}const s={};s.render=r;t["default"]=s}}]);
-//# sourceMappingURL=about.3faab663.js.map
+//# sourceMappingURL=about.b02f9b1d.js.map
