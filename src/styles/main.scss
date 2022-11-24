@@ -7,10 +7,11 @@
 
 // compile views, layouts, components
 @import './views/Bio.scss';
-
+@import './views/Contact';
 
 @import './layouts/Header';
 @import './layouts/BioContents';
+@import './layouts/InitialLoading';
 
 
 @import './components/HeaderLogo';

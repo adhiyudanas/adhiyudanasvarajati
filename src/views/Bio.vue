@@ -7,6 +7,7 @@
 <script>
 import BioContents from '@/layouts/BioContents.vue';
 
+
 export default {
   components: { BioContents }
 };
