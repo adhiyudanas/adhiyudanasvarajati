@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/adhiyudanasvarajati/precache-manifest.25db9b95742f31916fa2c5150e3e6c03.js"
+  "/adhiyudanasvarajati/precache-manifest.a3e967d68dadcda50abd7ccfcb8c629b.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "adhiyudanasvarajati"});
