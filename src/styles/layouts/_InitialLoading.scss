@@ -2,7 +2,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: $orange-base;
     -webkit-animation: fadeOutAnimation 4s forwards; 
     animation: fadeOutAnimation 4.3s forwards;
@@ -22,7 +22,7 @@
     width: 70vw;
     border: 10px solid #f4a261;
     border-radius: 15px;
-    left: calc(15vw - 10px);
+    left: calc(15vw - 25px);
     top: calc(50vh - 10px);
 }
 

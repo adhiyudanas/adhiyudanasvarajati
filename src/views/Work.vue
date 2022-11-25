@@ -1,5 +1,5 @@
 <template>
   <div class="work flex-wrapper">
-    <h2>This is Work page</h2>
+    <h2>I Do...</h2>
   </div>
 </template>

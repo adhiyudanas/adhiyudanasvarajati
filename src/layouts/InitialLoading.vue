@@ -18,19 +18,10 @@ export default {
         let loadCanvas = document.getElementById("loading-canvas");
         loadCanvas.style.display = "none"
         router.push({ path: '/bio'})
-      }, 4500
+      }, 4300
   );
   }
 };
-
-//timeout for loading element
-/*setTimeout(
-  function() {
-    let loadCanvas = document.getElementById("loading-canvas");
-    loadCanvas.style.display = "none"
-    this.$router.push('bio') 
-  }, 4500
-);*/
 
 </script>
 
