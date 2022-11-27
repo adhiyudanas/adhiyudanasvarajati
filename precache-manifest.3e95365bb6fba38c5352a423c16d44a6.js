@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d607a730e46dc45ee03e",
-    "url": "/adhiyudanasvarajati/css/app.3be22d3a.css"
+    "revision": "c59855bdfa3f2d798db8",
+    "url": "/adhiyudanasvarajati/css/app.6ce70923.css"
   },
   {
     "revision": "1b18d461ce75c75fdb4d7b6ec08b3e65",
@@ -12,24 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/adhiyudanasvarajati/img/profile-pic.5c4484f2.png"
   },
   {
-    "revision": "38bfdaaaf26206e881d655d9ade16174",
+    "revision": "2dd7c0fe68d609c9cb94597d2651c2bf",
     "url": "/adhiyudanasvarajati/index.html"
   },
   {
-    "revision": "d607a730e46dc45ee03e",
-    "url": "/adhiyudanasvarajati/js/app.63485690.js"
+    "revision": "c59855bdfa3f2d798db8",
+    "url": "/adhiyudanasvarajati/js/app.3564b185.js"
   },
   {
-    "revision": "786943315137b7e60f56",
-    "url": "/adhiyudanasvarajati/js/chunk-2d210c47.7bf74f16.js"
-  },
-  {
-    "revision": "c96d59720bfae53c0e1d",
-    "url": "/adhiyudanasvarajati/js/chunk-2d22bd05.545d0a1a.js"
-  },
-  {
-    "revision": "ff41a8c450150dc9d89b",
-    "url": "/adhiyudanasvarajati/js/chunk-vendors.b2afa46f.js"
+    "revision": "031ecda8d7ba90a438f7",
+    "url": "/adhiyudanasvarajati/js/chunk-vendors.ed5f99f0.js"
   },
   {
     "revision": "ab20c7193359ed8dd4bdd2c4fbb6ac80",
