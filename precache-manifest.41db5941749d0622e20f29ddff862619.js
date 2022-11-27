@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c59855bdfa3f2d798db8",
+    "revision": "6a7c00f58123bd89d5c3",
     "url": "/adhiyudanasvarajati/css/app.6ce70923.css"
   },
   {
@@ -12,12 +12,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/adhiyudanasvarajati/img/profile-pic.5c4484f2.png"
   },
   {
-    "revision": "2dd7c0fe68d609c9cb94597d2651c2bf",
+    "revision": "9d93252149e9490840670ff0e411c3f7",
     "url": "/adhiyudanasvarajati/index.html"
   },
   {
-    "revision": "c59855bdfa3f2d798db8",
-    "url": "/adhiyudanasvarajati/js/app.3564b185.js"
+    "revision": "6a7c00f58123bd89d5c3",
+    "url": "/adhiyudanasvarajati/js/app.400fc321.js"
   },
   {
     "revision": "031ecda8d7ba90a438f7",
