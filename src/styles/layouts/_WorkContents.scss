@@ -1,0 +1,38 @@
+.work-wrapper {
+    width: 100%;
+
+    .ul-wrapper {
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        height: 75vh;
+    }
+
+    .block-list {
+        list-style: none;
+        width: calc(100% - 4px);
+        border: solid 2px $plain-black;
+        border-radius: 10px;
+        height: 30%;
+        margin-bottom: 5%;
+        display: table;
+    }
+
+}
+
+@include large-screen {
+    .work-wrapper {
+        .ul-wrapper {
+            flex-direction: row;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            height: auto;
+            gap: 2vw;
+            margin-top: 5vh;
+        }
+
+        .block-list {
+            height: 55vh;
+        }
+    }
+}

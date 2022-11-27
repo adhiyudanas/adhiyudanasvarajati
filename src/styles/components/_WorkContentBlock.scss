@@ -1,0 +1,66 @@
+.card-wrapper {
+    padding: 0 30px 0 30px;
+    display: table-cell;
+    vertical-align: middle;
+
+    .title-text {
+        margin: 0;
+        font-size: 1.5em;
+        color: #0000;
+        cursor: pointer;
+        background: 
+            linear-gradient(90deg,$green-text 50%,#000 0) 
+            var(--_p,100%)/200% no-repeat;
+        -webkit-background-clip: text;
+                background-clip: text;
+        transition: .4s;
+    }
+
+    .title-text:hover {
+        --_p: 0%;
+    }
+
+    .details-text-wrapper {
+        cursor: pointer;
+        height: 100%;
+
+        .details-title-heading {
+            margin: 0;
+            padding: 0.7em 0 0.7em 0;
+        }
+    }
+
+    .details-list {
+        height: 100%;
+        justify-content: center;
+        gap: 2.5vh;
+        list-style-type: none;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    }
+
+    @include phone-screen {
+        .content-details-bullets-span {
+          font-size: 1rem;
+        }
+    }
+      
+      @include medium-screen {  
+        .content-details-bullets-span {
+          font-size: 1.2rem;
+        }
+      }
+      
+      @include extraLarge-screen {
+        .content-details-bullets-span {
+          font-size: 1.3rem;
+        }
+      }
+    
+      @include hd-screen {
+        .content-details-bullets-span {
+          font-size: 1.5rem;
+        }
+      }
+}

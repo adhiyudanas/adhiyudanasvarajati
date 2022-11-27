@@ -1,0 +1,39 @@
+.work {
+    align-items: center;
+    padding: 0 5vw 0 5vw;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+@include phone-screen {
+    .work h2 {
+      font-size: 2.4rem;
+      margin: 0.4em;
+    }
+}
+  
+  @include medium-screen {  
+    .work h2 {
+      font-size: 2.6rem;
+      margin: 0.1em;
+    }
+  }
+  
+  @include large-screen {
+    .work h2 {
+      font-size: 3rem;
+    }
+  }
+  
+  @include extraLarge-screen {
+    .work h2 {
+      font-size: 3.5rem;
+    }
+  }
+
+  @include hd-screen {
+    .work h2 {
+      font-size: 4.5rem;
+    }
+  }
